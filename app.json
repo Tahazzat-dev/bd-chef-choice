@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bd-checf-choice",
-    "slug": "bd-checf-choice",
+    "name": "BD Chef Choice",
+    "slug": "bd-chef-choice",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bdchefchoice.chefchoice",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f279642a-ceba-4525-985b-87040e4b2cdc"
+      }
+    },
+    "owner": "tahazzat"
   }
 }
