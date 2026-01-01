@@ -28,7 +28,7 @@ export default function HomeScreen() {
 
             <WebView
                 ref={webViewRef}
-                source={{ uri: 'https://test.bdchefchoice.com' }}
+                source={{ uri: 'https://test.bdchefchoice.com/back/pos/create' }}
                 startInLoadingState
                 renderLoading={() => (
                     <ActivityIndicator size="large" style={styles.loader} />
